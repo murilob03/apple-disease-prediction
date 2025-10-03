@@ -1,0 +1,278 @@
+# ==========================================
+# .gitignore para Projeto de Machine Learning
+# Plant Pathology - Apple Disease Prediction
+# ==========================================
+
+# ==========================================
+# DADOS E DATASETS
+# ==========================================
+# Pasta de dados principal (contém imagens e CSVs grandes)
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Arquivos de dados específicos
+*.csv
+*.tsv
+*.json
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+
+# Imagens e mídia
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+*.ico
+
+# Vídeos e áudio
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.mp3
+*.wav
+*.flac
+
+# ==========================================
+# MODELOS TREINADOS E CHECKPOINTS
+# ==========================================
+# Modelos salvos
+models/
+saved_models/
+checkpoints/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.pb
+*.onnx
+*.tflite
+*.keras
+
+# TensorBoard logs
+logs/
+runs/
+tensorboard/
+tb_logs/
+
+# ==========================================
+# PYTHON
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Environment variables
+.env.local
+.env.development
+.env.test
+.env.production
+
+# ==========================================
+# JUPYTER NOTEBOOKS
+# ==========================================
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter Lab settings
+.jupyter/
+
+# ==========================================
+# IDEs E EDITORES
+# ==========================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==========================================
+# SISTEMA OPERACIONAL
+# ==========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==========================================
+# ESPECÍFICO DO PROJETO
+# ==========================================
+# Resultados e outputs
+results/
+outputs/
+predictions/
+submissions/
+
+# Arquivos temporários
+temp/
+tmp/
+cache/
+.cache/
+
+# Logs do projeto
+*.log
+logs.txt
+
+# Arquivos de configuração sensíveis
+config.ini
+secrets.json
+credentials.json
+.credentials/
+
+# Arquivos grandes de backup
+*.bak
+backup/
+
+# ==========================================
+# COMPRESSÃO E ARQUIVOS
+# ==========================================
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz2
+*.tar.xz
+*.txz
+
+# ==========================================
+# DOCUMENTAÇÃO GERADA
+# ==========================================
+docs/_build/
+docs/build/
+site/
+
+# ==========================================
+# OUTROS
+# ==========================================
+# Arquivos do sistema
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Arquivos temporários do Office
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Arquivos de profiling
+*.prof
+*.lprof
