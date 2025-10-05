@@ -13,7 +13,6 @@ raw_data/
 processed_data/
 
 # Arquivos de dados específicos
-*.csv
 *.tsv
 *.json
 *.pkl
@@ -213,7 +212,6 @@ Temporary Items
 # ESPECÍFICO DO PROJETO
 # ==========================================
 # Resultados e outputs
-results/
 outputs/
 predictions/
 submissions/
